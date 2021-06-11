@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="temperature">
+            <h1 id="temp">32&#8451;</h1>
+            <h2 id="desc">Few Clouds</h2>
+            <div><img src="./cloud-solid.svg"></div>
+        </div>
+        <hr>
+        <div class="extra">
+            <h4 >Humidity: <span id="hum"></span></h4>
+            <h4>Pressure: <span id="pre"></span></h4>
+            <h4>Wind Speed: <span id="ws"></span></h4>
+        </div>
+        <hr>
+        <div>
+            <span>Choose Country: </span>
+            <select id="selectedCountry" class="dropdown">
+                <option class="option">India</option>
+                <option class="option">Pakistan</option>
+                <option class="option">London</option>
+                <option class="option">Australia</option>
+            </select>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
